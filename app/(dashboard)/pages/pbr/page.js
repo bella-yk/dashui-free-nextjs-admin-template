@@ -93,13 +93,13 @@ const PbrList = () => {
     if (!routes) return null;
 
     return (
-        <Container fluid className="p-6">
+        <Container fluid className="p-15">
         {/* Page Heading */}
         <PageHeading heading="PBR  ROUTING LIST"></PageHeading>
         <Row>
-            <Col md={10}></Col>
-            <Col style={{marginLeft:'40px'}}>
-                <Button variant="secondary" className="ml-40" size="sm" onClick={syncToServers}>
+            <Col md={11}></Col>
+            <Col>
+                <Button variant="secondary" size="sm" onClick={syncToServers}>
                     Sync Server
                 </Button>
             </Col>
