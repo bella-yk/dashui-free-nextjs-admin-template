@@ -97,7 +97,9 @@ const PbrList = () => {
         {/* Page Heading */}
         <PageHeading heading="PBR  ROUTING LIST"></PageHeading>
         <Row>
-            <Col md={11}></Col>
+            <Col md={11}>
+                <p className="mb-0 fs-5 text-muted">서버 적용을 위해서는 <b>Sync Server</b>를 진행해주세요. </p>
+            </Col>
             <Col>
                 <Button variant="secondary" size="sm" onClick={syncToServers}>
                     Sync Server
